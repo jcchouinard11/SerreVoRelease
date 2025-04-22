@@ -1,0 +1,41 @@
+Altium Designer Pick and Place Locations
+C:\Users\rapha\AppData\Local\TempReleases\Snapshot\2\Sources\REV 1.00 (2025-02-11)\04 - ASSEMBLY\SerreVo_multiplexeur_PCB PNP XY REV 1.00.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       11-02-25
+Time:       09:08
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Description","Package","Layer","Center-X(mil)","Center-Y(mil)","Rotation","Assembly Note","Assembly Type","Polarized","Manufacturer #1","Part Number #1","Supplier 1","Supplier Part Number 1","HelpURL"
+"U1","IC I2C SW 8CH W/RESET 24TSSOP","PW0024A","TopLayer","1595,001","415,000","0","","","","","","","",""
+"J2","Jack Modular Connector 8p8c _RJ45, Ethernet_ Vertical Unshielded Cat6","None","TopLayer","2276,149","1330,118","90","","","","","","","",""
+"J3","Jack Modular Connector 8p8c _RJ45, Ethernet_ Vertical Unshielded Cat6","None","TopLayer","1368,163","1301,818","180","","","","","","","",""
+"J4","Jack Modular Connector 8p8c _RJ45, Ethernet_ Vertical Unshielded Cat6","None","TopLayer","487,559","395,000","270","","","","","","","",""
+"J5","Jack Modular Connector 8p8c _RJ45, Ethernet_ Vertical Unshielded Cat6","None","TopLayer","487,559","1329,960","270","","","","","","","",""
+"J1","Jack Modular Connector 8p8c _RJ45, Ethernet_ Vertical Unshielded Cat6","None","TopLayer","2276,149","395,000","90","","","","","","","",""
+"SER1","SER - SERIAL CARTRIDGE MICRO","","BottomLayer","-22125,630","-17297,480","180","","NONE","","","","","",""
+"SB6","Solder Bridge 0603 NO","","BottomLayer","1863,146","922,000","180","","N/A","","","","","",""
+"SB5","Solder Bridge 0603 NO","","BottomLayer","1866,854","710,622","180","","N/A","","","","","",""
+"SB4","Solder Bridge 0603 NO","","BottomLayer","2044,227","922,000","180","","N/A","","","","","",""
+"SB3","Solder Bridge 0603 NO","","BottomLayer","2046,081","710,622","180","","N/A","","","","","",""
+"SB2","Solder Bridge 0603 NO","","BottomLayer","2225,308","922,000","180","","N/A","","","","","",""
+"SB1","Solder Bridge 0603 NO","","BottomLayer","2225,308","710,622","180","","N/A","","","","","",""
+"U2","No Description Available","","TopLayer","1492,151","837,694","180","","","","","","","",""
+"REV1","REV - REVISION CARTRIDGE MINI","","BottomLayer","-22125,630","-17297,480","180","","NONE","","","","","",""
+"R2","RES ARRAY 8 RES 330 OHM 2506","","TopLayer","931,536","388,206","0","","","","","","DigiKey","742C163331JPCT-ND",""
+"R1","RES ARRAY 8 RES 33 OHM 2506","","TopLayer","1202,588","388,206","0","","","","","","DigiKey","742C163330JPCT-ND",""
+"C8","CAP ALUM 47UF 20% 35V SMD","","TopLayer","900,000","1404,482","90","","","","","","DigiKey","1572-476SML035MCT-ND",""
+"C4","CAP ALUM 47UF 20% 35V SMD","","TopLayer","862,000","795,000","90","","","","","","DigiKey","1572-476SML035MCT-ND",""
+"C3","CAP ALUM 47UF 20% 35V SMD","","TopLayer","1161,000","853,000","180","","","","","","DigiKey","1572-476SML035MCT-ND",""
+"C2","CAP ALUM 47UF 20% 35V SMD","","TopLayer","1860,481","1557,520","90","","","","","","DigiKey","1572-476SML035MCT-ND",""
+"C1","CAP ALUM 47UF 20% 35V SMD","","TopLayer","1889,000","415,425","90","","","","","","DigiKey","1572-476SML035MCT-ND",""
+"C7","CAP CER 4.7UF 25V X5R 0603","","BottomLayer","1575,788","909,002","180","","","","","","DigiKey","1276-1900-1-ND",""
+"C6","CAP CER 4.7UF 25V X5R 0603","","BottomLayer","1559,820","783,552","180","","","","","","DigiKey","1276-1900-1-ND",""
+"C9","CAP CER 22UF 6.3V X5R 0603","","TopLayer","1648,011","125,392","0","","","","","","DigiKey","478-10812-1-ND",""
+"R3","RES SMD 10K OHM 5% 1/4W 0603","","TopLayer","1205,000","625,000","180","","","","","","DigiKey","541-2817-1-ND",""
+"C5","CAP CER 1UF 16V X7R 0603","","BottomLayer","1410,001","609,999","180","","","","","","DigiKey","399-17719-1-ND",""
+"C10","CAP CER 0.1UF 16V X7R 0603","","TopLayer","1462,966","125,392","180","","","","","","DigiKey","399-5784-2-ND",""
