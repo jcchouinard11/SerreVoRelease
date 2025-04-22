@@ -9,8 +9,6 @@ Ce projet concerne le développement et la gestion d'un système centralisé pou
 
 ### Dossiers
 - `OutputReleaseV1SerreVo` : Contient la version de sortie du projet.
-- `SerreVo_Controller` : Schéma et PCB du cerveau central du projet.
-- `SerreVo` : Schéma et PCB d'un multiplexeur utilisé dans le projet.
 
 ### Documentation et Tests
 - `plan_de_tests_unitairesSerreVO.xlsx` : Plan détaillé des tests unitaires pour vérifier le bon fonctionnement des différentes parties du système.

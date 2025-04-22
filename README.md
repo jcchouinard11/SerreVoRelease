@@ -5,22 +5,14 @@ SerreVo est un projet de gestion automatisée de serre basé sur l'ESP32 et Ardu
 
 ## Fonctionnalités
 - Surveillance en temps réel de la température, humidité
-- Transmission des données via WiFi/Bluetooth
-- Contrôle automatisé des systèmes d'irrigation et de ventilation(a venir)
+- Transmission des données via Bluetooth
 - Interface web pour visualisation et réglages
 
 ## Structure du Répertoire
-- **Documentation/** : Fichiers et guides du projet (One pager - schema de sbranchesments, structure JSON de la communication ETC)
-- **ProjetFinal/** : Code et fichiers finaux pour le projet (PCB et Codes)
-- **Prototypage/** : Tests et versions préliminaires des codes 
+- **Documentation/** : Fichiers et guides du projet (Fichiers PCB)
+- **Release/** : Code et fichiers finaux pour le projet (Codes serveur et controleurs)
 - **.gitignore** : Fichiers à exclure du versionnement
 
 
 
-## Améliorations Futures
-- Optimisation énergétique avec panneaux solaires
-- Ajout de capteurs supplémentaires (CO2, pH, etc.)
-
-## Auteurs
-Équipe SerreVo - Automatisation et gestion de serres intelligentes.
 
