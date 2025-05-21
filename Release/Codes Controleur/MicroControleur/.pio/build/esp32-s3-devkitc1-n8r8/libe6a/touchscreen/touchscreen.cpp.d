@@ -964,4 +964,4 @@
  lib/ui/ui.h lib/ui/screens.h \
  C:/Users/choui/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src/Preferences.h \
  C:/Users/choui/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src/EEPROM.h \
- lib/ui/actions.h
+ lib/ui/actions.h lib/BLE/BLE.h

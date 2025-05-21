@@ -8,6 +8,8 @@ extern "C" {
 #endif
 
 extern void action_save(lv_event_t * e);
+extern void action_quit(lv_event_t * e);
+extern void action_change_color(lv_event_t * e);
 
 
 #ifdef __cplusplus

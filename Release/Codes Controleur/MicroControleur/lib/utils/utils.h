@@ -42,7 +42,7 @@
 
 
 
-
+extern bool stopFlag;
 // Taille d'un élément de la Queue
 const int QueueElementSize = 15;
 

@@ -9,6 +9,7 @@ extern "C" {
 
 typedef struct _objects_t {
     lv_obj_t *main;
+    lv_obj_t *veille;
     lv_obj_t *obj0;
     lv_obj_t *obj1;
     lv_obj_t *temperature_panel;
@@ -26,10 +27,11 @@ typedef struct _objects_t {
     lv_obj_t *home_ch_label;
     lv_obj_t *obj3;
     lv_obj_t *update_bar;
-    lv_obj_t *table1;
     lv_obj_t *obj4;
+    lv_obj_t *table1;
     lv_obj_t *obj5;
     lv_obj_t *obj6;
+    lv_obj_t *obj7;
     lv_obj_t *refresh_delay_config;
     lv_obj_t *local_update_config_1;
     lv_obj_t *ble_update_config_2;
@@ -42,20 +44,25 @@ typedef struct _objects_t {
     lv_obj_t *veille_delay_config;
     lv_obj_t *plug_sensor_config_7;
     lv_obj_t *plug_sensor_config_8;
+    lv_obj_t *obj8;
+    lv_obj_t *obj9;
+    lv_obj_t *obj10;
+    lv_obj_t *obj11;
 } objects_t;
 
 extern objects_t objects;
 
 enum ScreensEnum {
     SCREEN_ID_MAIN = 1,
+    SCREEN_ID_VEILLE = 2,
 };
 
 void create_screen_main();
-void delete_screen_main();
 void tick_screen_main();
 
-void create_screen_by_id(enum ScreensEnum screenId);
-void delete_screen_by_id(enum ScreensEnum screenId);
+void create_screen_veille();
+void tick_screen_veille();
+
 void tick_screen_by_id(enum ScreensEnum screenId);
 void tick_screen(int screen_index);
 

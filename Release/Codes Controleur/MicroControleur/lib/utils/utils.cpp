@@ -1,5 +1,5 @@
 #include "utils.h"
-
+bool stopFlag =true;
 // Définition de l'objet d'affichage (défini dans ui.h)
 objects_t objects;
 
@@ -57,6 +57,7 @@ void getConfig(){
     lv_roller_set_selected(objects.veille_delay_config,prefs.getInt("veille", 0),LV_ANIM_ON);
     lv_roller_set_selected(objects.local_update_config_1,prefs.getInt("local", 0),LV_ANIM_ON);
     lv_roller_set_selected(objects.ble_update_config_2,prefs.getInt("ble", 0),LV_ANIM_ON);
+    update_BLE_delay=prefs.getInt("ble", 0);
     prefs.end();
 }
 void putConfig(){

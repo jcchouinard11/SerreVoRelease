@@ -15,5 +15,6 @@ int findExistingSensor(uint8_t bus, uint8_t mux_channel, bool is_mux);
 void displayData();
 void readSensors();
 void detectSensors(void *pvParameters);
-
+extern void singleDetectSensorWithRead();
+extern TaskHandle_t detectSensorshandle;
 #endif

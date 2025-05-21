@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 #include "utils.h"
-
+extern TaskHandle_t BLEtaskHandle;
 extern SensorData tempTable[MAX_TOTAL_SENSORS+1];
 
 #define MAX_BLE 26
@@ -14,6 +14,7 @@ extern SensorData tempTable[MAX_TOTAL_SENSORS+1];
 void Task_BLE(void *pvParameters);
 void setupBLE();
 void updateAdvertisementData(const String &message);
+extern void singleTask_BLE();
 String creerMessage(int *donnees, byte type, int longueur);
 float round_to_half_integer(float x);
 extern BLEUUID SERVICE_UUID;

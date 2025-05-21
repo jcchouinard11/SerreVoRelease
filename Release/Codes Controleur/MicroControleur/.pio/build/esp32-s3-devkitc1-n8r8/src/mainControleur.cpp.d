@@ -969,4 +969,11 @@
  C:/Users/choui/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
  lib/capteurs/capteurs.h lib/affichage/affichage.h \
  lib/touchscreen/touchscreen.h \
- .pio/libdeps/esp32-s3-devkitc1-n8r8/MycilaTaskMonitor/src/MycilaTaskMonitor.h
+ .pio/libdeps/esp32-s3-devkitc1-n8r8/MycilaTaskMonitor/src/MycilaTaskMonitor.h \
+ C:/Users/choui/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/include/driver/rtc_io.h \
+ C:/Users/choui/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/include/soc/rtc_io_periph.h \
+ C:/Users/choui/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/rtc_io_channel.h \
+ C:/Users/choui/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/rtc_io_struct.h \
+ C:/Users/choui/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/rtc_cntl_struct.h \
+ C:/Users/choui/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/sens_struct.h \
+ C:/Users/choui/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include/hal/rtc_io_types.h

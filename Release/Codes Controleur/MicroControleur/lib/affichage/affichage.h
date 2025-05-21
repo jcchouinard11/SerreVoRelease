@@ -11,5 +11,5 @@ void Task_Screen_Update();
 void Task_LVGL(void *pvParameters);
 void Task_Tick(void *pvParameters);
 void draw_event_cb(lv_event_t * e);
-
+extern TaskHandle_t affichagehandle;
 #endif
